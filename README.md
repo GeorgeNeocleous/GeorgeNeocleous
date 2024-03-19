@@ -13,7 +13,10 @@ My [Sitemap](/docs/Portfolio%20Sitemap.drawio.png)
             - Email
             - GitHub
 
-This is the overall linking structure of my portfolio website. Home is the welcoming page/the index.html. 
+This is a simplified linking structure of my portfolio website.
+
+Roman numerals (*I* - *III*) represent levels of the website. *I* the level of the origin/index.html/welcome page. *II* the pages linked from *I*; *experience*, *about*, *projects* & *contact*. *III* is the content or links within pages of *II*.
+The arrows from *I* to *II* show that from the home you can navi
 
 
 
