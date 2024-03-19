@@ -1,6 +1,23 @@
 # GeorgeNeocleous
 My [Sitemap](/docs/Portfolio%20Sitemap.drawio.png)
 
+- The Sitemap is setup as follows:
+    - Home
+        - About
+        - Experience
+            - Resume
+        - Projects
+            - Projects 1, 2 , etc...
+        - Contact
+            - LinkedIn
+            - Email
+            - GitHub
+
+This is the overall linking structure of my portfolio website. Home is the welcoming page/the index.html. 
+
+
+
+
 My [GitHub repository](https://github.com/GeorgeNeocleous/GeorgeNeocleous "my github repository").
 
 **Purpose**
