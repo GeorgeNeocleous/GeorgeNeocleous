@@ -1,5 +1,5 @@
 # GeorgeNeocleous
-
+My [Sitemap](/docs/Portfolio%20Sitemap.drawio.png)
 My [GitHub repository](https://github.com/GeorgeNeocleous/GeorgeNeocleous "my github repository").
 
 **Purpose**
