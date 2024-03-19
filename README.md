@@ -1,6 +1,6 @@
 # GeorgeNeocleous
 
-My [GitHub repository] (https://github.com/GeorgeNeocleous/GeorgeNeocleous "my github repository").
+My [GitHub repository](https://github.com/GeorgeNeocleous/GeorgeNeocleous "my github repository").
 
 -**Purpose**
 -The purpose of this website is to act as a portfolio to showcase my work. By showing that I can 
