@@ -20,7 +20,7 @@ This is a simplified linking structure of my portfolio website.
 dotted line is to reinforce that all the child elements of *II* are to be considered *III*.
 
 ### Arrows, Lines & Navigation
-*Arrows* represent the direction of a link to either a different html page or an external link like GitHub or a resume document. *Arrows* from *I* to *II* show that from the home page you can navigate to the different pages through the *navigation bar* (*nav-bar*) feature. *Arrows* pointing from *II* to *I* are to represent the abiltiy to navigate from these pages back to *I* by using the same *nav-bar* feature. The *dashed arrow* pointing from show my intention to have a link for the portfolio website within *GitHub* and or *LinkedIn*. *Lines* connecting the different *projects* show the intention to have x number of *projects* listed on the *projects* page (subject to change).
+*Arrows* represent the direction of a link to either a different html page or an external link like *GitHub* or a *resume* document. *Arrows* from *I* to *II* show that from the home page you can navigate to the different pages through the *navigation bar* (*nav-bar*) feature. *Arrows* pointing from *II* to *I* are to represent the abiltiy to navigate from these pages back to *I* by using the same *nav-bar* feature. The *dashed arrow* pointing from show my intention to have a link for the portfolio website within *GitHub* and or *LinkedIn*. *Lines* connecting the different *projects* show the intention to have x number of *projects* listed on the *projects* page (subject to change).
 
 
 
