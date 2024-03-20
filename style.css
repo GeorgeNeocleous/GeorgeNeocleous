@@ -1,4 +1,11 @@
+.quando-regular {
+  font-family: "Quando", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
+    margin: 0;
     --smoky-black: #141204ff;
     --drab-dark-brown: #262a10ff;
     --drab-dark-brown-2: #54442bff;
@@ -6,24 +13,54 @@
     --persian-orange: #e8985eff;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap')
-
-.quando-regular {
-    font-family: "Quando", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
 
   body {
-    background-image: linear-gradient(var(--brown-sugar), var(--drab-dark-brown), var(--persian-orange));
-    height: 100vh;
-  }
-  header {
-    font-family:"Quando";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--brown-sugar);
   }
 
-img {
+  header > h1{
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0.5em;
+  }
+
+  header > nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 5dvh;
+    width: 100dvw;
+  }
+
+  footer{
+    height: 10dvh;
+    width: 100dvw;
+    font-family: quando;
+  }
+
+#bear{
     border-radius: 10px;
     justify-content: center;
     align-items: center;
 }
+
+main{
+  min-height: 50dvh;
+  width: 65dvw;
+  display: flex;
+  flex-direction: column;
+}
+/* dvh makes sure the address bar doesn't cover content */
+
+
+main > img{
+  margin: 9em;
+  width: auto;
+}
+
