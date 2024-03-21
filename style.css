@@ -13,7 +13,6 @@
     --persian-orange: #e8985eff;
 }
 
-
   body {
     display: flex;
     flex-direction: column;
@@ -27,40 +26,65 @@
     justify-content: flex-start;
     margin: 0.5em;
   }
-
-  header > nav{
+  header > nav > a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    text-align: center;
     justify-content: center;
-    height: 5dvh;
     width: 100dvw;
+    margin:auto;
+    height: 8dvh;
+    object-fit: cover;
   }
 
-  footer{
-    height: 10dvh;
-    width: 100dvw;
-    font-family: quando;
+  header > nav{
+    display: flex;
+    width: 90dvw;
   }
 
-#bear{
-    border-radius: 10px;
+  #bear{
+    border-radius: 15px;
     justify-content: center;
     align-items: center;
+    display:flex;
+    margin:auto;
 }
 
 main{
-  min-height: 50dvh;
+  min-height: 100dvh;
   width: 65dvw;
-  display: flex;
   flex-direction: column;
+  background-color: yellow;
+  padding-bottom: 7vh;
 }
 /* dvh makes sure the address bar doesn't cover content */
 
 
 main > img{
   margin: 9em;
-  width: auto;
+  width: 30dvw;
+  object-fit: cover;
+  /* Makes the image adjust as the viewing window is changed */
 }
+
+  footer{
+    width: 100dvw;
+    display: flex;
+    flex-direction: row;
+    max-height: 10dvh;
+    justify-content: flex-start;
+    background-color: red;
+    margin-left: 5vw;
+    margin-bottom: 3vh;
+  }
+
+  footer > img{
+    display: flex;
+    justify-content: flex-start;
+    height:100px;
+    width:100px;
+    object-fit: cover;
+    margin-left: 2vw;
+  }
+
 
