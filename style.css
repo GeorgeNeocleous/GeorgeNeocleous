@@ -1,7 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap')
+
+
+.barlow-semi condensed-bold {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .quando-regular {
   font-family: "Quando", serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
+}
+.source-serif {
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: Bold;
 }
 
 :root {
@@ -25,6 +48,8 @@
     align-items: flex-start;
     justify-content: flex-start;
     margin: 0.5em;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 5vh;
   }
   header > nav > a{
     display: flex;
@@ -35,31 +60,47 @@
     margin:auto;
     height: 8dvh;
     object-fit: cover;
+    font-size: 3vh;
+    text-decoration: none;
   }
 
   header > nav{
     display: flex;
     width: 90dvw;
+    font-family: "Quando";
+    background-color: red;
   }
+  
 
+  main > h2{
+    justify-content: flex-start;
+    padding-bottom: 20dvh;
+    padding-top: 15dvh;
+  }
   #bear{
     border-radius: 15px;
     justify-content: center;
     align-items: center;
     display:flex;
     margin:auto;
+    margin-top: 2vh;
 }
 
 main{
   min-height: 100dvh;
   width: 65dvw;
   flex-direction: column;
-  background-color: yellow;
+  /* background: orange;  enable for troubleshooting*/
   padding-bottom: 7vh;
+  font-family: DM Sans;
+  font-style: italic;
 }
 /* dvh makes sure the address bar doesn't cover content */
 
-
+main > h1, h2{
+  display:flex;
+  justify-content: center;
+}
 main > img{
   margin: 9em;
   width: 30dvw;
@@ -73,7 +114,7 @@ main > img{
     flex-direction: row;
     max-height: 10dvh;
     justify-content: flex-start;
-    background-color: red;
+    /* background-color: red; enable for troubleshooting*/
     margin-left: 5vw;
     margin-bottom: 3vh;
   }
@@ -81,8 +122,8 @@ main > img{
   footer > img{
     display: flex;
     justify-content: flex-start;
-    height:100px;
-    width:100px;
+    height: 5rem;
+    width: 5rem;
     object-fit: cover;
     margin-left: 2vw;
   }
