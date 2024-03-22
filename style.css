@@ -26,6 +26,7 @@
   font-weight: 800;
   font-style: Bold;
 }
+/* FONTS */
 
 :root {
     margin: 0;
@@ -34,6 +35,10 @@
     --drab-dark-brown-2: #54442bff;
     --brown-sugar: #a9714bff;
     --persian-orange: #e8985eff;
+    --persian-red:#C3423F;
+    --purple-color:#452f6b;
+    --olive-color:#39481f; 
+
 }
 
   body {
@@ -47,9 +52,14 @@
   header > h1{
     align-items: flex-start;
     justify-content: flex-start;
-    margin: 0.5em;
+    margin-bottom: 1em;
     font-family: "Barlow Semi Condensed", sans-serif;
-    font-size: 5vh;
+    font-size: 5rem;
+  }
+
+  header > h1 > a{
+    text-decoration: none;
+    color:#39481f;
   }
   header > nav > a{
     display: flex;
@@ -57,26 +67,39 @@
     align-items: center;
     justify-content: center;
     width: 100dvw;
-    margin:auto;
-    height: 8dvh;
+    height: 5dvh;
     object-fit: cover;
-    font-size: 3vh;
+    font-size: 2vh;
     text-decoration: none;
+    color:black;
   }
 
-  header > nav{
+  nav{
     display: flex;
     width: 90dvw;
     font-family: "Quando";
-    background-color: red;
+    background-color: var(--persian-orange);
+
+    a:hover{
+      color: var(--persian-red);
+      transition: all 0.4s ease 0s;
+    }
   }
-  
 
   main > h2{
     justify-content: flex-start;
     padding-bottom: 20dvh;
     padding-top: 15dvh;
+    font-size: 3dvh;
+    /* width:100%; */
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* animation: */
+    /* typing 2s steps(18), */
+    /* cursor .4s step-end infinite alternative; */
   }
+
+
   #bear{
     border-radius: 15px;
     justify-content: center;
@@ -84,6 +107,11 @@
     display:flex;
     margin:auto;
     margin-top: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+#bear:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 
 main{
@@ -103,7 +131,7 @@ main > h1, h2{
 }
 main > img{
   margin: 9em;
-  width: 30dvw;
+  width: 10dvw;
   object-fit: cover;
   /* Makes the image adjust as the viewing window is changed */
 }
@@ -119,7 +147,7 @@ main > img{
     margin-bottom: 3vh;
   }
 
-  footer > img{
+  footer > a{
     display: flex;
     justify-content: flex-start;
     height: 5rem;
