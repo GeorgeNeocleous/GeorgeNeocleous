@@ -47,14 +47,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: auto;
+    height: auto;
     background-color: var(--brown-sugar);
   }
 
-body > header{
-  width:100;
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-
   header > h1{
     align-items: flex-start;
     justify-content: flex-start;
@@ -74,18 +78,18 @@ body > header{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100dvw;
-    height: 4dvh;
-    object-fit: cover;
     font-size: 3dvh;
     text-decoration: none;
     color:black;
+    object-fit: cover;
   }
 
   nav{
     display: flex;
+    flex-wrap: wrap;
     width: 90dvw;
     font-family: "Quando";
+    justify-content: space-between;
     background-color: var(--persian-orange);
     a:hover{
       color: var(--persian-red);
@@ -94,20 +98,21 @@ body > header{
   }
 
 
-
-
-
   main > h2{
+    flex-wrap: wrap;
     justify-content: flex-start;
-    padding-bottom: 11dvh;
-    padding-top: 15dvh;
-    font-size: 3dvh;
+    padding-left: 6dvw;
     /* width:100%; */
     /* white-space: nowrap; */
     /* overflow: hidden; */
     /* animation: */
     /* typing 2s steps(18), */
     /* cursor .4s step-end infinite alternative; */
+    /* padding-left: 10dvw; */
+    /* padding-bottom: 11dvh; */
+    /* padding-top: 8dvh; */
+    /* padding-right: 25dvw; */
+    /* font-size: 3dvh; */
   }
 
   #bear{
@@ -121,13 +126,14 @@ body > header{
     transition: 0.3s;
     object-fit: cover;
 }
+
 #bear:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 
 main{
   min-height: 100dvh;
-  width: 65dvw;
+  width: 100dvw;
   flex-direction: column;
   /* background: orange;  enable for troubleshooting*/
   padding-bottom: 7dvh;
@@ -170,7 +176,7 @@ main > img{
     margin-left: 2dvw;
   }
 
-  @media screen and (min-width 500px){
+  @media screen (min-width 500px){
     .navbar{
       flex-wrap: wrap;
     }
@@ -178,5 +184,4 @@ main > img{
       background-color: red;
     }
   }
-
 
