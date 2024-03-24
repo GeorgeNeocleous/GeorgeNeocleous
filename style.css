@@ -52,24 +52,24 @@
   header > h1{
     align-items: flex-start;
     justify-content: flex-start;
-    margin-bottom: 1em;
+    margin-bottom: 3dvh;
     font-family: "Barlow Semi Condensed", sans-serif;
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   header > h1 > a{
     text-decoration: none;
     color:#39481f;
   }
+
   header > nav > a{
-    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100dvw;
-    height: 5dvh;
+    height: 4dvh;
     object-fit: cover;
-    font-size: 2vh;
+    font-size: 3dvh;
     text-decoration: none;
     color:black;
   }
@@ -79,7 +79,6 @@
     width: 90dvw;
     font-family: "Quando";
     background-color: var(--persian-orange);
-
     a:hover{
       color: var(--persian-red);
       transition: all 0.4s ease 0s;
@@ -106,9 +105,10 @@
     align-items: center;
     display:flex;
     margin:auto;
-    margin-top: 2vh;
+    margin-top: 2dvh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     transition: 0.3s;
+    object-fit: cover;
 }
 #bear:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
@@ -119,7 +119,7 @@ main{
   width: 65dvw;
   flex-direction: column;
   /* background: orange;  enable for troubleshooting*/
-  padding-bottom: 7vh;
+  padding-bottom: 7dvh;
   font-family: DM Sans;
   font-style: italic;
 }
@@ -129,9 +129,11 @@ main > h1, h2{
   display:flex;
   justify-content: center;
 }
+
 main > img{
   margin: 9em;
-  width: 10dvw;
+  width: 50dvw;
+  height:auto;
   object-fit: cover;
   /* Makes the image adjust as the viewing window is changed */
 }
@@ -150,10 +152,10 @@ main > img{
   footer > a{
     display: flex;
     justify-content: flex-start;
-    height: 5rem;
-    width: 5rem;
+    height: 5dvh;
+    width: 5dvw;
     object-fit: cover;
-    margin-left: 2vw;
+    margin-left: 2dvw;
   }
 
 
