@@ -162,8 +162,8 @@ main > img{
   footer > a{
     display: flex;
     justify-content: flex-start;
-    height: 3.5dvh;
-    width: 3.5dvw;
+    height: 3dvh;
+    width: 3dvw;
     object-fit: cover;
     margin-left: 2dvw;
   }
@@ -177,5 +177,8 @@ main > img{
   footer > a{
     height: 6dvh;
     width: 6dvw;
+  }
+  header > h1{
+    margin-right: 80dvw;
   }
 }
