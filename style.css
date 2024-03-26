@@ -61,7 +61,7 @@ header{
     /* changed direction to column */
     align-items: center;
     justify-content: center;
-    font-size: 2.5dvh;
+    font-size: 2.5em;
     text-decoration: none;
     color:black;
     object-fit: cover;
@@ -93,7 +93,7 @@ header{
     align-items: flex-start;
     justify-content: flex-start;
     margin-bottom: 3dvh;
-    margin-right: 30dvw;
+    margin-right: 31dvw;
   }
 
 .headercontainer{
@@ -104,6 +104,7 @@ header{
   .pagetitle{
     font-size: 2.5rem;
   }
+
   main > h2{
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -188,8 +189,8 @@ main > img, .placeholder{
   footer > a{
     display: flex;
     justify-content: flex-start;
-    height: 3dvh;
-    width: 3dvw;
+    height: 4dvh;
+    width: 4dvw;
     object-fit: cover;
     margin-left: 2dvw;
   }
@@ -224,7 +225,12 @@ main > img, .placeholder{
     align-items: none;
     flex-wrap: wrap;
   }
-
+  .homeicon{
+    margin-right: 55dvw;
+  }
+  header > nav > a{
+    font-size: 2em;
+  }
   #bear{
     width:50dvw;
     height:70dvh;
@@ -247,14 +253,16 @@ main > img, .placeholder{
 
   .pagetitle{
     font-size: 4em;
-    
   }
 
   .aboutimage{
     height: 35dvh;
-    width: 55dvw;
+    width: 40dvw;
   }
   .secondcontainer{
-    width: 70dvw;
+    width: 55dvw;
+    p{
+      font-size: 2rem;
+    }
   }
 }
