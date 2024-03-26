@@ -51,8 +51,7 @@ header{
   flex-wrap: wrap;
 }
 
-
-  header > h1 > a{
+  .pagetitle, .homeicon{
     text-decoration: none;
     color:#39481f;
   }
@@ -84,16 +83,27 @@ header{
     }
   }
 
-  header > h1{
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-bottom: 3dvh;
-    margin-right: 55dvw;
+  .homeicon, .pagetitle{
+
     font-family: "Barlow Semi Condensed", sans-serif;
     font-size: 4rem;
   }
   /* The GN icon */
+  .homeicon{
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 3dvh;
+    margin-right: 30dvw;
+  }
 
+.headercontainer{
+  display: flex;
+  width: 90dvw;
+}
+
+  .pagetitle{
+    font-size: 2.5rem;
+  }
   main > h2{
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -110,18 +120,16 @@ header{
 
   #bear{
     border-radius: 25px;
+    width: 65dvw;
+    height: 50dvh;
     justify-content: center;
     align-items: center;
     display:flex;
     margin:auto;
     margin-top: 4dvh;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-    transition: 0.3s;
-    object-fit: cover;
-    box-shadow: var(--drab-dark-brown) 5px 5px;
 }
 
-#bear:hover{
+img:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 
@@ -144,10 +152,12 @@ main > h1, h2{
 
 main > img{
   margin: auto;
-  width: 65dvw;
-  height: 50dvh;
   object-fit: cover;
   /* Makes the image adjust as the viewing window is changed */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+  object-fit: cover;
+  box-shadow: var(--drab-dark-brown) 5px 5px;
 }
 
   footer{
@@ -169,6 +179,23 @@ main > img{
     width: 3dvw;
     object-fit: cover;
     margin-left: 2dvw;
+  }
+.maincontainer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .maincontainer > * {
+    justify-content: center;
+    align-items: center;
+    width: 30dvw;
+    height:20dvh;
+  }
+  .maincontainer > img {
+    margin-top: 9dvh;
+    width: 55dvw;
+    height:20dvh;
+    border-radius: 25px;
   }
 
 @media (min-width: 500px) 
