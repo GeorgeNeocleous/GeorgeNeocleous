@@ -150,8 +150,7 @@ main > h1, h2{
   object-fit: cover;
 }
 
-main > img{
-  margin: auto;
+main > img, .placeholder{
   object-fit: cover;
   /* Makes the image adjust as the viewing window is changed */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
@@ -159,9 +158,23 @@ main > img{
   object-fit: cover;
   box-shadow: var(--drab-dark-brown) 5px 5px;
 }
+.secondcontainer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90dvw;
+  background-color: var(--brown-sugar);
+  border-radius: 2rem;
+  margin: 5em;
+  box-shadow: var(--drab-dark-brown) 5px 5px;
+  
+  p{
+    margin:1em;
+  }
+}
 
   footer{
-    width: 90dvw;
+    width: 85dvw;
     display: flex;
     flex-direction: row;
     max-height: 8dvh;
@@ -184,20 +197,25 @@ main > img{
   display:flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 15dvh;
 }
-  .maincontainer > * {
-    justify-content: center;
-    align-items: center;
-    width: 30dvw;
-    height:20dvh;
-  }
-  .maincontainer > img {
-    margin-top: 9dvh;
-    width: 55dvw;
+
+  .aboutimage {
+    margin-top: 3dvh;
+    width: 80dvw;
     height:20dvh;
     border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--drab-dark-brown) 5px 5px;
   }
 
+  /* .maincontainer > * { */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 30dvw; */
+    /* height:20dvh; */
+  /* } */
 @media (min-width: 500px) 
 {
   nav{
@@ -225,5 +243,18 @@ main > img{
   }
   main > h1, h2{
     font-size: 2em;
+  }
+
+  .pagetitle{
+    font-size: 4em;
+    
+  }
+
+  .aboutimage{
+    height: 35dvh;
+    width: 55dvw;
+  }
+  .secondcontainer{
+    width: 70dvw;
   }
 }
