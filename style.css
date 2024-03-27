@@ -163,10 +163,10 @@ main > img, .placeholder{
   display:flex;
   flex-direction: column;
   align-items: center;
-  width: 90dvw;
+  width: 65dvw;
   background-color: var(--brown-sugar);
   border-radius: 2rem;
-  margin: 5em;
+  margin-top: 6em;
   box-shadow: var(--drab-dark-brown) 5px 5px;
   
   p{
@@ -198,10 +198,10 @@ main > img, .placeholder{
   display:flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 15dvh;
+  
 }
 
-  .aboutimage {
+  .aboutimage{
     margin-top: 3dvh;
     width: 80dvw;
     height:20dvh;
@@ -211,12 +211,25 @@ main > img, .placeholder{
     box-shadow: var(--drab-dark-brown) 5px 5px;
   }
 
-  /* .maincontainer > * { */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* width: 30dvw; */
-    /* height:20dvh; */
-  /* } */
+#resume, #resume > *{
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  border-radius: 25px;
+  background-color: #39481f;
+}
+#resume > a:hover{
+  color: var(--persian-red);
+  transition: all 0.4s ease 0s;
+}
+#resumecontainer{
+  height:8dvh;
+  width: 50dvw;
+  justify-content: center;
+  align-items: center;
+}
+
+
 @media (min-width: 500px) 
 {
   nav{
@@ -260,8 +273,9 @@ main > img, .placeholder{
     width: 40dvw;
   }
   .secondcontainer{
-    width: 55dvw;
-    p{
+    width: 80dvw;
+
+    p,h3, li, a{
       font-size: 2rem;
     }
   }
