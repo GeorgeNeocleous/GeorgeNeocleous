@@ -34,12 +34,15 @@ make a portfolio with various functionality and linking to other projects and in
 ### **Functionality/Features**
 - This website functions to link multiple html documents together each with unique styling but a consistent color palette theme. 
 Documents are linked through a navigation bar and the website is made from a mobile first approach whilst also cattering for 
-tablet and desktop view frames by utilising principles of responsive web design. Some website pages will also contain external
-links or documents relevant to employment.
+tablet and desktop view frames by utilising principles of responsive web design - such as dynamic unit measurements, flexbox and media queries. Some website pages will also contain external
+links or documents relevant to employment. eg. Pressing the resume button will download the applicable resume file. Project images are linked to the project page (as a placeholder). Footer GitHub icon links to GitHub account.
+
 
 ### **Screenshots**
 
 ### **Sitemap**
+
+
 
 ### **Target audience**
 - The target audience for this website is anyone interested in the work I have completed or just a general interest in me professionally.
