@@ -29,6 +29,7 @@ My [GitHub repository](https://github.com/GeorgeNeocleous/GeorgeNeocleous "my gi
 ### **Purpose**
 - The purpose of this website is to act as a portfolio to showcase my work. By showing that I can 
 make a portfolio with various functionality and linking to other projects and information that is relevant to employment.
+-Additionally, it has served as practical experience and shown me what I can potentially do better in the future and what I might want to avoid.
 
 ### **Functionality/Features**
 - This website functions to link multiple html documents together each with unique styling but a consistent color palette theme. 
