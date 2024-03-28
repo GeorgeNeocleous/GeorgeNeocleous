@@ -150,7 +150,7 @@ main > h1, h2{
   object-fit: cover;
 }
 
-main > img, .placeholder{
+main > img{
   object-fit: cover;
   /* Makes the image adjust as the viewing window is changed */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
@@ -158,6 +158,7 @@ main > img, .placeholder{
   object-fit: cover;
   box-shadow: var(--drab-dark-brown) 5px 5px;
 }
+
 .secondcontainer{
   display:flex;
   flex-direction: column;
@@ -202,7 +203,7 @@ main > img, .placeholder{
 
   .aboutimage{
     margin-top: 3dvh;
-    width: 80dvw;
+    width: 55dvw;
     height:20dvh;
     border-radius: 25px;
     justify-content: center;
@@ -210,13 +211,17 @@ main > img, .placeholder{
     box-shadow: var(--drab-dark-brown) 5px 5px;
   }
 
-  .projectimage{
+  .blogimage{
     width: 50dvw;
     height: 20dvh;
     border-radius: 25px;
     box-shadow: var(--drab-dark-brown) 5px 5px;
   }
 
+  #hobbiesinterestscontainer{
+    display: flex;
+    flex-direction: row;
+  }
 #resume, #resume > *{
   text-decoration: none;
   color: white;
@@ -235,6 +240,13 @@ main > img, .placeholder{
   width: 50dvw;
   justify-content: center;
   align-items: center;
+}
+.contacticon{
+  width: 35dvw;
+}
+.contactcontainer{
+  display: flex;
+  flex-direction: row;
 }
 
 @media (min-width: 500px) 
@@ -295,5 +307,8 @@ main > img, .placeholder{
   }
   #copyright{
     font-size: 1rem;
+  }
+  .blogimage{
+    height: 30dvh;
   }
 }
