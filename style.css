@@ -84,7 +84,6 @@ header{
   }
 
   .homeicon, .pagetitle{
-
     font-family: "Barlow Semi Condensed", sans-serif;
     font-size: 4rem;
   }
@@ -182,7 +181,7 @@ main > img, .placeholder{
     justify-content: flex-start;
     justify-content: space-between;
     /* background-color: red; enable for troubleshooting*/
-    margin-left: 5vw;
+    margin-left: 4vw;
     margin-bottom: 3vh;
   }
 
@@ -211,6 +210,13 @@ main > img, .placeholder{
     box-shadow: var(--drab-dark-brown) 5px 5px;
   }
 
+  .projectimage{
+    width: 50dvw;
+    height: 20dvh;
+    border-radius: 25px;
+    box-shadow: var(--drab-dark-brown) 5px 5px;
+  }
+
 #resume, #resume > *{
   text-decoration: none;
   color: white;
@@ -218,17 +224,18 @@ main > img, .placeholder{
   border-radius: 25px;
   background-color: #39481f;
 }
+
 #resume > a:hover{
   color: var(--persian-red);
   transition: all 0.4s ease 0s;
 }
+
 #resumecontainer{
   height:8dvh;
   width: 50dvw;
   justify-content: center;
   align-items: center;
 }
-
 
 @media (min-width: 500px) 
 {
@@ -239,7 +246,7 @@ main > img, .placeholder{
     flex-wrap: wrap;
   }
   .homeicon{
-    margin-right: 55dvw;
+    margin-right: 20dvw;
   }
   header > nav > a{
     font-size: 2em;
@@ -255,7 +262,7 @@ main > img, .placeholder{
     justify-content:flex-start;
   }
   footer > section{
-    margin-right: 50dvw;
+    margin-right: 40dvw;
   }
   header > h1{
     margin-right: 80dvw;
@@ -273,10 +280,20 @@ main > img, .placeholder{
     width: 40dvw;
   }
   .secondcontainer{
-    width: 80dvw;
-
+    width: 60dvw;
+  }
     p,h3, li, a{
       font-size: 2rem;
     }
+    
+  #resumecontainer{
+    height:10rem;
+    width: 17rem;
+  }
+  #resume{
+    height: 6.5rem;
+  }
+  #copyright{
+    font-size: 1rem;
   }
 }
