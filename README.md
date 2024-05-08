@@ -3,6 +3,10 @@
 <!--
 **GeorgeNeocleous/GeorgeNeocleous** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/vZ5mu4Wq8aA7SN7LEl/giphy.gif?cid=ecf05e47zfw4ts9mf4cjhh3puiqfe357kbde1f2v41lofyaz&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="100"/>
+</div>
+
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
