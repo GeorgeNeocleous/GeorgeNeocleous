@@ -1,7 +1,7 @@
 
 <header>
   <h1>
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="5%"> Welcome I'm George. A web development student.
+    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="5%"> Welcome, I'm George. A web development student.
   </h1>
   <p align="center"> 
     <img src="https://media.giphy.com/media/vZ5mu4Wq8aA7SN7LEl/giphy.gif?cid=ecf05e47zfw4ts9mf4cjhh3puiqfe357kbde1f2v41lofyaz&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="350" height="200"/>
