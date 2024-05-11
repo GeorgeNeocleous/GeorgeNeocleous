@@ -11,7 +11,6 @@
 I'm a full-stack web development student at CoderAcademy from Melbourne, Victoria. Changing careers from medical science to IT. I'm a passionate problem solver and learner. In my profile you will find hobby projects but also examples of my professional work. I hope you can find something to pique your interest during your stay.
 
 ### 🌱 Currently learning:
-
 <img align="left" alt="Git" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 <img align="left" alt="HTML" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" />
 <img align="left" alt="JavaScript" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
@@ -21,12 +20,16 @@ I'm a full-stack web development student at CoderAcademy from Melbourne, Victori
 <img align="left" alt="SQL" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
 
 <br></br>
+---
+
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=GeorgeNeocleous&theme=tokyonight&border_radius=15&card_width=350&card_height=180&hide_total_contributions=true" alt="GitHub Streak" /></a>
+<br></br>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GeorgeNeocleous&layout=compact&theme=github_dark&card_width=350&hide=shell)
+
 
 ## Contact me 
 <a href="https://www.linkedin.com/in/george-neocleous-b78936174/"><img align="left" alt="SQL" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" /></a>
-
 <br></br>
 
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=GeorgeNeocleous&theme=tokyonight&border_radius=15&card_width=350&card_height=180&hide_total_contributions=true" alt="GitHub Streak" /></a>
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GeorgeNeocleous&layout=compact&theme=github_dark)
 ![Page loading/visitor counter](https://komarev.com/ghpvc/?username=GeorgeNeocleous)
+
