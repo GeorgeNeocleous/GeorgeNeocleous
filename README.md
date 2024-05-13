@@ -30,8 +30,8 @@ I'm a full-stack web development student at CoderAcademy from Melbourne, Victori
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=GeorgeNeocleous&layout=compact&theme=github_dark&card_width=350&hide=shell)
 
 ## Contact me 
-<a href="https://www.linkedin.com/in/george-neocleous-b78936174/"><img align="left" alt="SQL" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" /></a>
-<img align="left" alt="SQL" width="35px" style="padding-right:10px;" src="./email_icon_github.svg" />
+<a href="https://www.linkedin.com/in/george-neocleous-b78936174/"><img align="left" alt="Linkedin icon" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" /></a>
+<a href="mailto:g.neocleous20@email.com?"><img align="left" alt="Email icon" width="35px" style="padding-right:10px;" src="./email_icon_github.svg" /></a>
 
 <br></br>
 
