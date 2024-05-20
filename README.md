@@ -23,7 +23,13 @@ I'm a full-stack web development student at CoderAcademy from Melbourne, Victori
 
 ---
 
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=GeorgeNeocleous&theme=tokyonight&border_radius=15&card_width=350&card_height=180&hide_total_contributions=true" alt="GitHub Streak" /></a>
+<!--- problems with attributes breaking the link <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=GeorgeNeocleous&theme=tokyonight&border_radius=15&card_width=350&card_height=180&hide_total_contributions=true" alt="GitHub Streak" /></a> --->
+
+<!--- problems with attributes breaking the link[![GitHub Streak](https://streak-stats.demolab.com/?user=GeorgeNeocleous&theme=tokyonight&border_radius=15&card_width=350&card_height=180&hide_total_contributions=true)](https://git.io/streak-stats) --->
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=GeorgeNeocleous)](https://git.io/streak-stats)
+
+
 
 <br></br>
 
