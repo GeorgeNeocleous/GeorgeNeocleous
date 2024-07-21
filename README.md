@@ -8,7 +8,7 @@
   </p>
 </header>
 
-I'm a full-stack web development student at CoderAcademy from Melbourne, Victoria. Changing careers from medical science to IT. I'm a passionate problem solver and learner. In my profile you will find hobby projects and projects I've worked on during my learning journey. I hope you can find something to pique your interest during your stay.
+I'm a full-stack web development student at CoderAcademy from Melbourne, Victoria. Embarking on a new career path, from medical science to IT. I'm a passionate problem solver and learner. In my profile you will find hobby projects and projects I've worked on during my learning journey. 
 
 ### 🌱 Currently learning:
 <img align="left" alt="Git" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
