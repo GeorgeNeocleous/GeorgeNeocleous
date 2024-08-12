@@ -20,6 +20,8 @@ I'm a full-stack web development student at CoderAcademy from Melbourne, Victori
 <img align="left" alt="SQL" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
 <img align="left" alt="Flask" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg" />
 <img align="left" alt="Postgresql" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain-wordmark.svg" />
+<img align="left" alt="React" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+<img align="left" alt="Express" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
 
 
 
@@ -27,9 +29,9 @@ I'm a full-stack web development student at CoderAcademy from Melbourne, Victori
 
 ---
 
-<!--- problems with attributes breaking the link <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=GeorgeNeocleous&theme=tokyonight&border_radius=15&card_width=350&card_height=180&hide_total_contributions=true" alt="GitHub Streak" /></a> --->
+<!--- had problems with attributes breaking the link <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=GeorgeNeocleous&theme=tokyonight&border_radius=15&card_width=350&card_height=180&hide_total_contributions=true" alt="GitHub Streak" /></a> --->
 
-<!--- problems with attributes breaking the link[![GitHub Streak](https://streak-stats.demolab.com/?user=GeorgeNeocleous&theme=tokyonight&border_radius=15&card_width=350&card_height=180&hide_total_contributions=true)](https://git.io/streak-stats) --->
+<!--- had problems with attributes breaking the link[![GitHub Streak](https://streak-stats.demolab.com/?user=GeorgeNeocleous&theme=tokyonight&border_radius=15&card_width=350&card_height=180&hide_total_contributions=true)](https://git.io/streak-stats) --->
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=GeorgeNeocleous)](https://git.io/streak-stats)
 
